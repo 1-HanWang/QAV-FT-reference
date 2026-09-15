@@ -391,3 +391,14 @@ A successful end-to-end validation should complete all four runners and reproduc
 `PACKAGE_SHA256.txt` records SHA256 integrity information for the
 distributed package files, while `REFERENCE_WEIGHTS_SHA256.txt` records
 the SHA256 hashes of the fixed reference checkpoints.
+
+## 16. Scope and Boundaries
+`Platform:` This reference package is compiled and validated exclusively for Windows x64 / Python 3.12. Cross-platform builds, including Linux builds, are outside the scope of this release and are not provided.
+
+`Format:` This repository provides a runnable methodological reference implementation in its documented native format. ONNX/VNNLIB benchmark packages are not part of this release, and the repository is not intended to serve as a VNN-COMP submission or interoperability package.
+
+`Source Code:` The public release provides compiled binary extensions (.pyd) rather than the complete internal Python source tree. Uncompiled internal source code, build scripts, development files, and unpublished research components are not included in the public repository.
+
+`Extensions:` The authors do not provide modified, extended, customized, or platform-specific versions of the reference package on request.
+
+`Support and availability:` The materials provided here constitute the complete public release of the reference implementation. The paper states that datasets and code are available from the corresponding author upon reasonable request. This does not mean that all requests will be fulfilled, nor does it create an entitlement to additional software, source code, datasets, builds, conversions, or technical support beyond the scope of the published work. Requests are evaluated individually and may be declined.
