@@ -392,6 +392,8 @@ A successful end-to-end validation should complete all four runners and reproduc
 distributed package files, while `REFERENCE_WEIGHTS_SHA256.txt` records
 the SHA256 hashes of the fixed reference checkpoints.
 
+---
+
 ## 16. Scope and Boundaries
 `Platform:` This reference package is compiled and validated exclusively for Windows x64 / Python 3.12. Cross-platform builds, including Linux builds, are outside the scope of this release and are not provided.
 
