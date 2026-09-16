@@ -395,7 +395,7 @@ the SHA256 hashes of the fixed reference checkpoints.
 ---
 
 ## 16. Scope and Boundaries
-`Platform:` This reference package is compiled and validated exclusively for Windows x64 / Python 3.12. Cross-platform builds, including Linux builds, are outside the scope of this release and are not provided.
+`Platform:` This reference package is compiled and validated exclusively for Windows x64 / Python 3.11. Cross-platform builds, including Linux builds, are outside the scope of this release and are not provided.
 
 `Format:` This repository provides a runnable methodological reference implementation in its documented native format. ONNX/VNNLIB benchmark packages are not part of this release, and the repository is not intended to serve as a VNN-COMP submission or interoperability package.
 
